@@ -1,6 +1,6 @@
 const extendHex = (shortHex) => {
     // Remove '#' if present and convert to uppercase
-    shortHex = shortHex.replace(/^#/, '').toUpperCase();
+    shortHex = shortHex.replace(/^#/, '').totoLowerCase());
 
     // Extend the short hex code to the full hex code
     const fullHex = shortHex
